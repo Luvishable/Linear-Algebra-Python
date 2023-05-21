@@ -27,4 +27,3 @@ v = np.array([3, 4j, 5 + 2j, complex(2, -5)])
 print(f"Complex vector is {v}")
 print()
 print(f"Hermitian Transposed vector is {np.transpose(v.conjugate())}")
-
