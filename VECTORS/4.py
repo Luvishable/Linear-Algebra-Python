@@ -25,3 +25,5 @@ dot_product4 = np.matmul(v1, v2)
 # NOTES:
 # 1) Since dot product is a single number, it is sometimes called scalar product
 # 2) If we wanna find a dot product of two vectors, the vectors have to be same dimensionality
+# 3) Dot product is generally written as: (transposed of first vector * second vector)
+# 4) Dot product will be always a single number regardless of dimension

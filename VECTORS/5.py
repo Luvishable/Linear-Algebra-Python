@@ -32,3 +32,17 @@ result4 = np.dot(np.dot(v1, v2), v3)
 print(
     f"Dot product is not associative since the result is {result3.round(4) == result4.round(4)}"
 )
+
+# Dot product is commutative. Let's prove:
+# What is commutative? => a*b == b*a
+
+# Generating two 100-element vectors
+a = np.random.randn(100)
+b = np.random.randn(100)
+
+# compute the dot products of a.b and b.a
+dp_ab = np.dot(a, b)
+dp_ba = np.dot(b, a)
+
+# We can say that the subtraction of the dot products have to be 0 since they are equal.
+print(dp_ab, "\n", dp_ba, "\n", dp_ab - dp_ba)
