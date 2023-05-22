@@ -7,6 +7,7 @@
 ## TOPICS
 
 * Vectors
+* Introduction to Matrix
 
 
 
