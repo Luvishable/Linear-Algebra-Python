@@ -8,6 +8,7 @@
 
 * Vectors
 * Introduction to Matrix
+* Matrix Multiplication
 
 
 
